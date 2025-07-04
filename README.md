@@ -126,7 +126,7 @@ Make sure your backend is running on http://localhost:8000
 ---
 ### 🖼️ Preview
 ### ✍️ Journal Entry Form
-![Journal Entry Form](journal-form.png)
+![Journal Entry Form](Screenshot 2025-07-04 201659.png)
 
 ### 📊 Mood Trend Chart
 ![Mood Chart](mood-chart.png)
