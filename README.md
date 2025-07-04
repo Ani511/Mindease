@@ -123,4 +123,13 @@ Make sure your backend is running on http://localhost:8000
 - Advanced NLP with LLM-based emotion tags
 - WordClouds and emotion heatmaps
 - Weekly email summaries
+---
+### 🖼️ Preview
+### ✍️ Journal Entry Form
+![Journal Entry Form](journal-form.png)
 
+### 📊 Mood Trend Chart
+![Mood Chart](mood-chart.png)
+
+### 📆 Insights
+![Insights](calendar-filter.png)
