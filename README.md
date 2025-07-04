@@ -126,10 +126,10 @@ Make sure your backend is running on http://localhost:8000
 ---
 ### 🖼️ Preview
 ### ✍️ Journal Entry Form
-![Journal Entry Form](Screenshot 2025-07-04 201659.png)
+![Journal Entry Form](Screenshot-2025-07-04-201659.png)
 
 ### 📊 Mood Trend Chart
-![Mood Chart](mood-chart.png)
+![Mood Chart](Screenshot-2025-07-04-201709.png)
 
 ### 📆 Insights
-![Insights](calendar-filter.png)
+![Insights](Screenshot-2025-07-04-201659.png)
