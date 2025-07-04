@@ -52,7 +52,7 @@ It integrates **NLP-based mood detection**, **interactive charts**, and **calend
 ## 📁 Project Structure
 
 Mindease/
-├── mindease-backend/                    # FastAPI Backend
+├── mindease-backend/                    # 🧠 FastAPI Backend
 │   ├── app/
 │   │   ├── main.py                      # FastAPI app entry point
 │   │   ├── models.py                    # SQLAlchemy DB models
@@ -62,7 +62,7 @@ Mindease/
 │   │       └── journal.py               # Sentiment analysis + journal routes
 │   └── requirements.txt                 # Python dependencies
 │
-├── mindease-frontend/                  # React Frontend
+├── mindease-frontend/                  # 💻 React Frontend
 │   ├── src/
 │   │   ├── components/
 │   │   │   ├── JournalForm.jsx          # Journal input + mood detection
@@ -74,7 +74,6 @@ Mindease/
 │   │   └── index.js                     # App root file
 │
 └── README.md                            # 📄 You're here!
----
 
 ---
 
@@ -129,7 +128,7 @@ Make sure your backend is running on http://localhost:8000
 ![Journal Entry Form](Journal-entry.png)
 
 ### 📊 Mood Trend Chart
-![Mood Chart](Moodchart.png)
+![Mood Chart](moodchart.png)
 
 ### 📆 Insights
-![Insights](Mood-insights.png)
+![Insights](mood-insights.png)
