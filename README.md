@@ -50,7 +50,7 @@ It integrates **NLP-based mood detection**, **interactive charts**, and **calend
 ---
 
 ## 📁 Project Structure
-
+```
 Mindease/
 ├── mindease-backend/                    # 🧠 FastAPI Backend
 │   ├── app/
@@ -74,7 +74,7 @@ Mindease/
 │   │   └── index.js                     # App root file
 │
 └── README.md                            # 📄 You're here!
-
+```
 ---
 
 ## 🚀 Getting Started
