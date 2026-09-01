@@ -1,4 +1,4 @@
-# 🧠 MindEase – Journaling & Mood Insight App
+# MindEase – Journaling & Mood Insight App
 
 **MindEase** is a full-stack personal journaling and emotional reflection tool designed to help users cultivate self-awareness, mental clarity, and emotional resilience through regular text-based entries.
 
@@ -6,32 +6,32 @@ It integrates **NLP-based mood detection**, **interactive charts**, and **calend
 
 ---
 
-## ✨ Features
+## Features
 
-### 📝 Journaling & Reflection
+###  Journaling & Reflection
 - Clean, distraction-free journaling interface.
 - Entries are timestamped and stored securely in a SQL database.
 
-### 💬 Sentiment Analysis (Dual Engine)
+###  Sentiment Analysis (Dual Engine)
 - **TextBlob (rule-based)**: Quick polarity analysis of journal entries.
 - **BERT (`cardiffnlp/twitter-roberta-base-sentiment`)**: Transformer-based contextual sentiment classification.
 - Displays both model predictions side-by-side for transparency.
 
-### 📊 Mood Trend Chart
+###  Mood Trend Chart
 - Line chart of emotional tone over time using Chart.js.
 - Helps visualize personal ups and downs.
 
-### 📆 Calendar View + Mood Filter
+###  Calendar View + Mood Filter
 - Filter past entries by **mood** or **date** using a calendar-based UI.
 - Supports search for entries with specific emotional tone.
 
-### 📈 Insights Dashboard (Planned / Partial)
+###  Insights Dashboard (Planned / Partial)
 - Streak tracker to promote consistency.
 - Word clouds, entry stats, and more upcoming.
 
 ---
 
-## 🧩 Tech Stack
+##  Tech Stack
 
 ### Frontend – `React.js + TailwindCSS`
 - `React Router` for views
@@ -49,10 +49,10 @@ It integrates **NLP-based mood detection**, **interactive charts**, and **calend
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 ```
 Mindease/
-├── mindease-backend/                    # 🧠 FastAPI Backend
+├── mindease-backend/                    #  FastAPI Backend
 │   ├── app/
 │   │   ├── main.py                      # FastAPI app entry point
 │   │   ├── models.py                    # SQLAlchemy DB models
@@ -62,7 +62,7 @@ Mindease/
 │   │       └── journal.py               # Sentiment analysis + journal routes
 │   └── requirements.txt                 # Python dependencies
 │
-├── mindease-frontend/                  # 💻 React Frontend
+├── mindease-frontend/                  #  React Frontend
 │   ├── src/
 │   │   ├── components/
 │   │   │   ├── JournalForm.jsx          # Journal input + mood detection
@@ -73,13 +73,13 @@ Mindease/
 │   │   ├── App.jsx                      # Main frontend layout + routes
 │   │   └── index.js                     # App root file
 │
-└── README.md                            # 📄 You're here!
+└── README.md                            # You're here!
 ```
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
-### 🔧 Backend Setup
+###  Backend Setup
 
 ```bash
 cd mindease-backend
@@ -88,7 +88,7 @@ source venv/bin/activate        # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn app.main:app --reload
 ```
-### 💻 Frontend Setup
+### Frontend Setup
 
 ```bash
 cd mindease-frontend
@@ -97,7 +97,7 @@ npm start
 ```
 Make sure your backend is running on http://localhost:8000
 --- 
-### 📦 Dependencies
+###  Dependencies
 #### Backend
 - fastapi
 - uvicorn
@@ -116,19 +116,19 @@ Make sure your backend is running on http://localhost:8000
 - react-router-dom
 - tailwindcss
 
-### 🌱 Future Improvements
+###  Future Improvements
 - Auth system (login/register with JWT)
 - Mood-based journaling prompts
 - Advanced NLP with LLM-based emotion tags
 - WordClouds and emotion heatmaps
 - Weekly email summaries
 ---
-### 🖼️ Preview
-### ✍️ Journal Entry Form
+###  Preview
+###  Journal Entry Form
 ![Journal Entry Form](Journal-entry.png)
 
-### 📊 Mood Trend Chart
+###  Mood Trend Chart
 ![Mood Chart](moodchart.png)
 
-### 📆 Insights
+### Insights
 ![Insights](mood-insights.png)
